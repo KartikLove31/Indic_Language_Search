@@ -100,3 +100,43 @@ a:link {
 .mg-text {
   line-height: 14px;
 }
+
+/* Style for the search bar */
+.search-input {
+  border: 2px solid #000; /* Add a border */
+  border-radius: 25px; /* Add rounded corners */
+  padding: 10px; /* Add some padding */
+  width: 80%; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+}
+
+/* Style for the search button */
+.search-icon {
+  position: absolute; /* Position the button absolutely */
+  right: 10px; /* Position the button 10px from the right edge of the input */
+  top: 50%; /* Center the button vertically */
+  transform: translateY(-50%); /* This ensures the button is perfectly centered */
+}
+
+/* Style for the search bar */
+.search {
+  position: relative; /* Add this line */
+  width: 100%;
+  max-width: 600px; /* Adjust as needed */
+  margin: 0 auto; /* Center the search bar */
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px 70px 10px 30px; /* Add more padding on the right for the button and on the left for the text */
+  border: 2px solid #000;
+  border-radius: 25px;
+}
+
+/* Style for the search button */
+.search-icon {
+  position: relative;
+  right: 15px; /* Position it 15px from the right */
+  top: 43%;
+  transform: translateY(-50%);
+}
