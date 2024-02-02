@@ -1,3 +1,6 @@
+import bhashini from 'bhashini-translation';
+bhashini.auth("5e6683b15b7d40b2aaa4a5b6c89d831a", "01ad063126-3c87-4762-a7c5-96a46f89d3a6", "UKD1n65ufJYvjCqBVynrgAVPdDG1wADWqpI0tcSSC8flx6ZwbtHGuEpfOJdXwiBx")
+
 window.onload = function() {
     let SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SpeechRecognition) {
